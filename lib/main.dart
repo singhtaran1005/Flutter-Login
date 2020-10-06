@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: new LoginPage(),
-    );
+    ); 
   }
 }
 
@@ -93,7 +93,7 @@ class LoginPageState extends State<LoginPage>
                         color: Colors.tealAccent,
                         textColor: Colors.white,
                         onPressed: () =>{},
-                        child: new Text("LOGIN"),
+                        child: new Text("LOGIN PAGE"),
                         splashColor: Colors.black,
                       ),
                     ],
@@ -108,3 +108,4 @@ class LoginPageState extends State<LoginPage>
     );
   }
 }
+
